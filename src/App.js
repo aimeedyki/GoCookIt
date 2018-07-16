@@ -1,6 +1,6 @@
 import { createStackNavigator } from 'react-navigation';
-import Feed from './src/components/Feed/Feed';
-import Home from './src/components/Home/Home';
+import Feed from './components/Feed/Feed';
+import Home from './components/Home/Home';
 
 const App = createStackNavigator({
   Home: { screen: Home },
