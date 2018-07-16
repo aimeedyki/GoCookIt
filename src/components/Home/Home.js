@@ -1,5 +1,5 @@
 import React from 'react';
-import { Alert, Image, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { Image, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import { Font } from 'expo';
 
 export default class Home extends React.Component {
@@ -38,7 +38,7 @@ export default class Home extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#E26664',
+    backgroundColor: '#BF3F3C',
     alignItems: 'center',
     justifyContent: 'center',
   },
